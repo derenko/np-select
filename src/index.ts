@@ -18,7 +18,7 @@ export const NpCitySelect = (config: NpCitySelectConfig) => {
       text: config.button?.text || 'Select City',
     },
     input: {
-      name: config.input?.name,
+      name: config.input?.name || 'city',
       placeholder: config.input?.placeholder || 'Select City',
     },
     placeholder: {
@@ -57,10 +57,10 @@ export const NpWarehouseSelect = (config: NpWarehouseSelectConfig) => {
     root: config.root,
     apiKey: config.apiKey,
     button: {
-      text: config.button.text || 'Select Warehouse',
+      text: config.button?.text || 'Select Warehouse',
     },
     input: {
-      name: config.input.name,
+      name: config.input?.name || 'warehouse',
       placeholder: config.input?.placeholder || 'Select Warehouse',
     },
     placeholder: {

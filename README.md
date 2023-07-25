@@ -49,11 +49,9 @@ NovaPoshta © address and warehouse selects. It contains two selects, which requ
 
 #### Script tag:
 
-Go to `/build` folder and download `np-select.umd.js` and `np-select.css`, `np-select.d.ts` if you want to have `.ts` types
+Go to `/build` folder and download `np-select.umd.js`, `np-select.d.ts` if you want to have `.ts` types
 
 ```html
-<link rel="stylesheet" type="text/css" href="np-select.css"/>
-
 <script type="text/javascript" src="np-select.umd.js"></script>
 ```
 
