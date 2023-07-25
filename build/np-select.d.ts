@@ -83,11 +83,11 @@ export interface NpBaseSelectOption {
 }
 export type NpBaseSelectSharedProperties = {
 	root: HTMLElement;
-	button: {
+	button?: {
 		text?: string;
 		icon?: string;
 	};
-	input: {
+	input?: {
 		name?: string;
 		placeholder?: string;
 	};
@@ -95,7 +95,7 @@ export type NpBaseSelectSharedProperties = {
 		text: string;
 	};
 	options?: NpBaseSelectOption[];
-	apiKey: string;
+	apiKey?: string;
 };
 export type NpBaseSelectSharedMethods = {
 	getOption: (value: Record<any, any>) => NpBaseSelectOption;

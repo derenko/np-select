@@ -50,6 +50,16 @@ export class NpBaseSelect {
     onMounted = () => {},
     apiKey,
   }: NpBaseSelectConfig) {
+    if (!root) {
+      throw new TypeError(
+        'NpSelect: root element is not passed or it is not valid',
+      );
+    }
+
+    if (!apiKey) {
+      console.error('NpSelect: apiKey is not passed');
+    }
+
     this.options = options.map(item => getOption(item));
     this.filtered = options.map(item => getOption(item));
     this.open = false;

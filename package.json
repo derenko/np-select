@@ -1,7 +1,7 @@
 {
   "name": "np-select",
   "description": "Nova Poshta city and warehouse selects.",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "main": "build/np-select.js",
   "scripts": {
     "build": "tsc && vite --config vite.config.js build && npm run build:dts",
@@ -45,6 +45,7 @@
     "storybook": "^7.1.0",
     "typescript": "^5.1.6",
     "vite": "^4.4.6",
+    "vite-plugin-css-injected-by-js": "^3.2.1",
     "vite-plugin-static-copy": "^0.17.0"
   }
 }

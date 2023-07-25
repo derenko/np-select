@@ -11,11 +11,11 @@ export interface NpBaseSelectOption {
 
 type NpBaseSelectSharedProperties = {
   root: HTMLElement;
-  button: {
+  button?: {
     text?: string;
     icon?: string;
   };
-  input: {
+  input?: {
     name?: string;
     placeholder?: string;
   };
@@ -23,7 +23,7 @@ type NpBaseSelectSharedProperties = {
     text: string;
   };
   options?: NpBaseSelectOption[];
-  apiKey: string;
+  apiKey?: string;
 };
 
 type NpBaseSelectSharedMethods = {
