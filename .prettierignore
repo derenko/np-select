@@ -1,0 +1,5 @@
+build
+playground
+*.json
+*.md
+.prettierrc
