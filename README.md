@@ -49,11 +49,12 @@ NovaPoshta © address and warehouse selects. It contains two selects, which requ
 
 #### Script tag:
 
-Go to `/build` folder and download `np-select.umd.js`, `np-select.d.ts` if you want to have `.ts` types
-
 ```html
-<script type="text/javascript" src="np-select.umd.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/np-select@1.0.3/build/np-select.umd.js"></script>
 ```
+
+ - Also you can go to `/build` folder and download `np-select.umd.js`, `np-select.d.ts` if you want to have `.ts` types
+
 
 Now select is availiable under NpSelect global variable: 
 
